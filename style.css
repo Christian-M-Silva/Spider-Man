@@ -1,0 +1,221 @@
+/* As paletas de cores usadas eu to pegando desse link https://coolors.co/palette/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f4-ffffff*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background: #0b090a url(Imagens/Bacground-Menu.jpg) center right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+}
+
+.area-menu{
+    background: rgb(36,0,9);
+    background: -moz-linear-gradient(90deg, rgba(36,0,9,1) 0%, rgba(149,1,2,1) 100%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(36,0,9,1) 0%, rgba(149,1,2,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(36,0,9,1) 0%, rgba(149,1,2,1) 100%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#240009",endColorstr="#00d4ff",GradientType=1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 550; 
+}
+
+a:hover{
+    background-color: #0b090a;
+}
+
+.area-introduction{
+    height: 90.4vh;
+    background-color: #a4161a;
+    color: #03071e;
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "image aside";
+    grid-template-rows: 
+    50px;
+}
+
+header{
+    grid-area: title;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.SpiderMan-Back{
+    grid-area: image;
+    text-align: center;
+}
+
+.SpiderMan-Back img{
+    height: 500px;
+    position: relative;
+    top: 16px;
+}
+
+aside{
+    grid-area: aside;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+blockquote{
+    width: 410px;
+}
+
+.area-story{
+    background-color: #03071e;
+    color: #a4161a;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "texto image";
+    grid-template-rows: 
+    50px;
+}
+
+.story-spiderman{
+    grid-area: texto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+p{
+    width: 410px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.emphasis{
+    font-style: italic;
+}
+
+.Peter-and-SpiderMan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: image;
+}
+
+.Peter-and-SpiderMan img{
+    height: 560px;
+}
+
+.area-skill{
+    height: 100vh;
+    background-color: #a4161a;
+    color: #03071e;
+    display: grid;
+    grid-template-areas: 
+    "title title title"
+    "list list list"
+    "image1 image2 image3";
+    grid-template-rows: 
+    50px;
+}
+
+.list-skill{
+    grid-area: list;
+    padding-left: 90px;
+    padding-top: 30px;
+    columns: 2; 
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.escalador-de-paredes{
+    grid-area: image1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escalador-de-paredes img{
+    height: 163px;
+}
+
+.poder-teia{
+    grid-area: image2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poder-teia img{
+    height: 267px;
+}
+
+.sentido-aranha{
+    grid-area: image3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sentido-aranha img{
+    height: 172px;
+}
+/*
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: black url(Imagens/substituto\ da\ logo-spider.png) no-repeat 551px 161px;
+    display: grid;
+    grid-template-areas: 
+    "nav nav"
+    "titulo titulo"
+    "figure aside"
+    "footer footer";
+    grid-template-rows: 
+    100px
+    50px
+    77vh;
+}
+
+
+#introdução{
+    grid-area: titulo;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+figure{
+    grid-area: figure;
+    padding: 60px;
+}
+
+img{
+    height: 70%;
+}
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+
+}*/
