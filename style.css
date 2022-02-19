@@ -81,6 +81,19 @@ blockquote{
     width: 410px;
 }
 
+.up{
+    position: fixed;
+    cursor: pointer;
+    top: 582px;
+    left: 1300px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: lightgray url('Imagens/up.png') center center no-repeat;
+    background-size: 20px;
+}
+
 .area-story{
     background-color: #03071e;
     color: #a4161a;
@@ -178,6 +191,27 @@ p{
 .sentido-aranha img{
     height: 172px;
 }
+
+.area-lesson{
+    background-color: #03071e;
+    color: #a4161a;
+    height: 93vh;
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "img paragraph";
+}
+
+.area-lesson figure{
+    grid-area: img;
+    padding-left: 74px;
+}
+
+.area-lesson p{
+    grid-area: paragraph;
+    font-size: 1.2rem;
+}
+
 /*
 
 body{
