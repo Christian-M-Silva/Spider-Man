@@ -25,7 +25,10 @@ Use HTML and CSS to create an information page about him, appropriate colours an
 
 ### Screenshot
 
-![](MyPreview.PNG)
+![](Screenshot/Screenshot 1.png)
+![](Screenshot/Screenshot 2.png)
+![](Screenshot/Screenshot 3.png)
+![](Screenshot/Screenshot 4.png)
 
 
 ## My process
