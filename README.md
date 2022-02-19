@@ -23,14 +23,6 @@ Use HTML and CSS to create an information page about him, appropriate colours an
 - At least one paragraph with a stylized color, font and size
 - A footer with linkse
 
-### Screenshot
-
-![](Screenshot/Screenshot1.png)
-![](Screenshot/Screenshot2.png)
-![](Screenshot/Screenshot3.png)
-![](Screenshot/Screenshot4.png)
-
-
 ## My process
 
 ### Built with
