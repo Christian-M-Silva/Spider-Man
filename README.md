@@ -14,9 +14,14 @@
 
 ### The challenge
 
-Users should be able to:
+Choose an avenger!
+Use HTML and CSS to create an information page about him, appropriate colours and images. The page must contain:
 
-- View the optimal layout depending on their device's screen size
+- An unordered list in a nav tag
+- Two images related to the subject
+- At least one heading with a stylized color, font and size
+- At least one paragraph with a stylized color, font and size
+- A footer with linkse
 
 ### Screenshot
 
@@ -29,11 +34,12 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Grid
+- Links fragment
 
 ### What I learned
 
-I learned how to use flexbox to center elements in a parent div and improved my ability to preview a layout
+I learned to use fragmented links, to use grid and its templates, to use the view port and the importance of good planning in the project
 
 ## Author
 
